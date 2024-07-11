@@ -4,10 +4,9 @@
     "port": "3042"
   },
   "db": {
-    "connectionString": "postgresql://myuser:mypassword@127.0.0.1:5432/mydatabase"
-  },
-  "migrations": {
-    "dir": "./migrations",
-    "autoApply": "true"
+    "connectionString": "{PLT_GRACEFUL_WIZARDRY_DATABASE_URL}",
+    "graphql": true,
+    "openapi": true,
+    "schemalock": true
   }
 }
